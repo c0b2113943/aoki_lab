@@ -1,0 +1,25 @@
+
+services:
+  gpu:
+    build: 
+      context: ./gpu
+      dockerfile: Dockerfile
+    
+    tty: true
+    stdin_open: true
+    container_name: 'gpu_m'
+
+    ports:
+      - "8201:8000"
+
+
+    volumes:
+      - ./workspace:/workspace
+
+    working_dir: /workspace
+    
+
+
+
+
+

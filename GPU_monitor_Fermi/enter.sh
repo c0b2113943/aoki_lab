@@ -1,0 +1,1 @@
+docker exec -it gpu_m bash

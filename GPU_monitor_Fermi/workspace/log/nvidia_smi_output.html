@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3">
+    <title>NVIDIA-SMI Output</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            display: flex;
+            justify-content: center; /* Center the content horizontally */
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .server-section {
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .header {
+            font-size: 1.0em;
+            line-height: 2px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-bottom: 20px; 
+        }
+        th, td { 
+            border: 1px solid #dddddd; 
+            text-align: left; 
+            padding: 8px; 
+        }
+        th { 
+            background-color: #f2f2f2; 
+        }
+        .title { 
+            font-size: 1.2em; 
+            font-weight: bold; 
+        }
+        @media (min-width: 1200px) {
+            .container {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .left-column, .right-column {
+                flex: 1;
+                min-width: 48%; /* Ensure there's space between columns */
+            }
+            .right-column {
+                margin-left: 20px; /* Add some space between columns */
+            }
+            .server-section {
+                margin-bottom: 0; /* Remove bottom margin for inline display */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div class="server-section">
+<div class="header">
+    <pre><h2>新サーバー (10.202.82.121)</h2></pre>
+    <pre><h3>CPU Usage: 58.7%</h3></pre>
+    <pre><h3>RAM Usage: 11.7144%</h3></pre>
+    <pre>Mon Sep 23 17:16:13 2024</pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre>| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |</pre>
+    <pre>|-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |</pre>
+    <pre>| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |</pre>
+    <pre>|                                         |                        |               MIG M. |</pre>
+    <pre>|=========================================+========================+======================|</pre>
+    <pre>|   0  NVIDIA RTX 6000 Ada Gene...    Off |   00000000:7C:00.0 Off |                  Off |</pre>
+    <pre>| 30%   53C    P8             33W /  300W |       2MiB /  49140MiB |      0%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>|   1  NVIDIA RTX 6000 Ada Gene...    Off |   00000000:7F:00.0 Off |                  Off |</pre>
+    <pre>| 39%   67C    P0            167W /  300W |   25149MiB /  49140MiB |     27%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre></pre>
+    <pre> </pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre>| Processes:                                                                              |</pre>
+    <pre>|  GPU   GI   CI    User                   Type  Process name              GPU Memory     |</pre>
+    <pre>|        ID   ID                                                           Usage          |</pre>
+    <pre>|=========================================================================================|</pre>
+    <pre>|    1   N/A  N/A   kaito-houjho            C python                         18684MiB MiB |</pre>
+    <pre>|    1   N/A  N/A   kaito-houjho            C python3                         6450MiB MiB |</pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+       </div>
+    </div>
+    <pre> </pre>
+    <div class="server-section">
+       <div class="header">
+    <pre><h2>簡易サーバー (10.202.82.13)</h2></pre>
+    <pre><h3>CPU Usage: 20.9%</h3></pre>
+    <pre><h3>RAM Usage: 2.86747%</h3></pre>
+    <pre>Mon Sep 23 17:16:07 2024</pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre>| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |</pre>
+    <pre>|-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |</pre>
+    <pre>| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |</pre>
+    <pre>|                                         |                        |               MIG M. |</pre>
+    <pre>|=========================================+========================+======================|</pre>
+    <pre>|   0  NVIDIA GeForce RTX 2080        Off |   00000000:17:00.0 Off |                  N/A |</pre>
+    <pre>| 25%   44C    P0             31W /  215W |       1MiB /   8192MiB |      0%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>|   1  NVIDIA GeForce RTX 2080        Off |   00000000:65:00.0 Off |                  N/A |</pre>
+    <pre>| 32%   58C    P2             56W /  215W |    7963MiB /   8192MiB |     40%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre></pre>
+    <pre> </pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre>| Processes:                                                                              |</pre>
+    <pre>|  GPU   GI   CI    User                   Type  Process name              GPU Memory     |</pre>
+    <pre>|        ID   ID                                                           Usage          |</pre>
+    <pre>|=========================================================================================|</pre>
+    <pre>|    1   N/A  N/A   kawai-sora              C python3                         7960MiB MiB |</pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+       </div>
+    </div>
+    <pre> </pre>
+    <div class="server-section">
+<div class="header">
+    <pre><h2>Kaggle_VM (10.204.227.44)  </h2></pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre><h2>現在メンテナンス中 復旧予定 未定</h2></pre>
+       </div>
+    </div>
+    </div>
+     <div class="right-column">
+     <div class="server-section">
+     <div class="header">
+    <pre><h2>旧サーバー (10.202.82.12)</h2></pre>
+    <pre><h3>CPU Usage: 4.6%</h3></pre>
+    <pre><h3>RAM Usage: 11.4557%</h3></pre>
+    <pre>Mon Sep 23 17:16:10 2024</pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre>| NVIDIA-SMI 550.54.14              Driver Version: 550.54.14      CUDA Version: 12.4     |</pre>
+    <pre>|-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |</pre>
+    <pre>| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |</pre>
+    <pre>|                                         |                        |               MIG M. |</pre>
+    <pre>|=========================================+========================+======================|</pre>
+    <pre>|   0  NVIDIA TITAN Xp                Off |   00000000:02:00.0 Off |                  N/A |</pre>
+    <pre>| 32%   45C    P0             60W /  250W |       0MiB /  12288MiB |      0%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>|   1  NVIDIA TITAN Xp                Off |   00000000:03:00.0 Off |                  N/A |</pre>
+    <pre>| 31%   46C    P0             68W /  250W |       0MiB /  12288MiB |      0%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>|   2  NVIDIA TITAN Xp                Off |   00000000:83:00.0 Off |                  N/A |</pre>
+    <pre>| 31%   45C    P0             59W /  250W |       0MiB /  12288MiB |      1%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>|   3  NVIDIA TITAN Xp                Off |   00000000:84:00.0 Off |                  N/A |</pre>
+    <pre>| 32%   47C    P0             64W /  250W |       0MiB /  12288MiB |      0%      Default |</pre>
+    <pre>|                                         |                        |                  N/A |</pre>
+    <pre>+-----------------------------------------+------------------------+----------------------+</pre>
+    <pre></pre>
+    <pre> </pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre>| Processes:                                                                              |</pre>
+    <pre>|  GPU   GI   CI    User                   Type  Process name              GPU Memory     |</pre>
+    <pre>|        ID   ID                                                           Usage          |</pre>
+    <pre>|=========================================================================================|</pre>
+    <pre>| No running processes found                                                              |</pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+       </div>
+    </div>
+    <pre> </pre>
+    <div class="server-section">
+<div class="header">
+    <pre><h2>Lyon専有 (10.204.227.43)</h2></pre>
+    <pre><h3>CPU Usage: 2.2%</h3></pre>
+    <pre><h3>RAM Usage: 5.79308%</h3></pre>
+    <pre>Mon Sep 23 17:16:14 2024</pre>
+    <pre>+-----------------------------------------------------------------------------+</pre>
+    <pre>| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |</pre>
+    <pre>|-----------------------------------------+------------------------+----------------------+</pre>
+    <pre>| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |</pre>
+    <pre>| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |</pre>
+    <pre>|                                         |                        |               MIG M. |</pre>
+    <pre>|=========================================+========================+======================|</pre>
+    <pre>|   0  GRID A100D-20C                 On  |   00000000:02:01.0 Off |                    0 |</pre>
+    <pre>| N/A   N/A    P0             N/A /  N/A  |      35MiB /  20480MiB |      0%      Default |</pre>
+    <pre>|                                         |                        |             Disabled |</pre>
+    <pre>+-------------------------------+----------------------+----------------------+</pre>
+    <pre> </pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+    <pre>| Processes:                                                                              |</pre>
+    <pre>|  GPU   GI   CI    User                   Type  Process name              GPU Memory     |</pre>
+    <pre>|        ID   ID                                                           Usage          |</pre>
+    <pre>|=========================================================================================|</pre>
+    <pre>|    0   N/A  N/A   root                    G /usr/lib/xorg/Xorg                35MiB MiB |</pre>
+    <pre>+-----------------------------------------------------------------------------------------+</pre>
+       </div>
+    </div>
+    <pre> </pre>
+    <div class="server-section">
+<div class="header">
+    <pre><h2>Fermiサーバ (CPU専用) (10.204.227.42)</h2></pre>
+    <pre><h3>CPU Usage: 1.5%
+</h3></pre>
+    <pre><h3>RAM Usage: 11.6049%
+</h3></pre>
+    <pre>ユーザー名              CPU使用率
+</pre>
+    <pre>root                      0.15%
+</pre>
+       </div>
+    </div>
+
+    </div>
+    </div>
+</body>
+</html>

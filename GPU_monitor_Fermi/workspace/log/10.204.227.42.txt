@@ -1,0 +1,4 @@
+CPU Usage: 0.8%
+RAM Usage: 11.6062%
+ユーザー名              CPU使用率
+root                      0.15%
