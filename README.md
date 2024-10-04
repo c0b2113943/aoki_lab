@@ -1,4 +1,4 @@
-# aoki_lab
+# aoki_lab GPU_monitor　Version2.0
 
 東京工科大学青木研究室のサーバーのGPUやCPUなどの使用状況を確認するシステムです。本システムは学内LANのみ（VPN接接可）有効です。
 
