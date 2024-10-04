@@ -12,7 +12,7 @@ Lyon-Envのディレクトリに移動する
 ```bash
 cd aoki_lab/GPU_monitor_Fermi
 ```
-aoki_lab/GPU_monitor_Fermi/workspace/get.sh　の編集を行う。「????????」をサーバーに合わせたパスワードを入れる。
+aoki_lab/GPU_monitor_Fermi/workspace/get.sh　の編集を行う。case文内の「????????」をサーバーに合わせたパスワードを入れる。場合によっては「＠」前の「aokilab_admin」も適宜ログインユーザーに置き換える。
 ```bash
 timeout 5s sshpass -p "????????" ssh -o StrictHostKeyChecking=no "aokilab_admin@$ip_address" 'bash -s' < cpu.sh > "$log_file"
 ```
